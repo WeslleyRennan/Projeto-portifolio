@@ -1,0 +1,53 @@
+@media screen and (max-width: 760px){
+  .header-container{
+    height: 200vh;
+    background-position: bottom;
+    background-size: 50%;
+  }
+  h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  h2{
+    padding-left: 70px;
+    text-align: auto;
+  }
+  .social-media a{
+    text-align: center;
+    padding: 18px 50px;
+  }
+}
+
+@media screen and (max-width: 560px){
+  .header-container{
+    background-size: 40%;
+  }
+  h2{
+    margin-left: -40px;
+  }
+  .social-media{
+    margin-left: -20px;
+  }
+  .social-media a{
+    padding: 15px 40px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .header-container{
+    height: 130vh;
+    background-size: 35%;
+  }
+  h1{
+    margin-left: -25px;
+  }
+  h2{
+   margin-left: -95px; 
+  }
+  .social-media{
+    margin-left: -50px;
+  }
+  .social-media a{
+    padding: 10px 20px;
+  }
+}
